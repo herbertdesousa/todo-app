@@ -1,6 +1,13 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    },
+    "experimentalDecorators": true,
     "strict": true
   }
 }
